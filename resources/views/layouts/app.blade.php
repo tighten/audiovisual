@@ -16,19 +16,12 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <x-nav />
-
-        <div class="max-w-xl mx-auto sm:px-6 lg:px-8 mt-12">
-            <div class="font-bold text-3xl">
-                Audiovisual.dev
-            </div>
-        </div>
 
         <main>
             {{ $slot }}

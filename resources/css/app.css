@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-title {
+    @apply font-bold mt-4 text-2xl;
+}
+
+.page-content a {
+    @apply text-blue-600;
+}
+    .page-content a:hover {
+        @apply text-blue-700 underline;
+    }

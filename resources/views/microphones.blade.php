@@ -1,7 +1,7 @@
 <x-app-layout>
-    <div class="max-w-xl mx-auto sm:px-6 lg:px-8 mt-12">
-        <h2 class="font-bold mt-4 text-xl">Microphones</h2>
-        <ul class="list-disc pl-6">
+    <div class="max-w-xl mx-auto mt-12 sm:px-6 lg:px-8 page-content">
+        <h2 class="page-title">Microphones</h2>
+        <ul class="pl-6 list-disc">
             <li>Free: onboard mic</li>
             <li>Airpods: only if you already have them</li>
             <li>Headset: if you already have it</li>
