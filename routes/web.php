@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::view('/', 'welcome');
+Route::view('microphones', 'microphones');
+Route::view('headphones', 'headphones');
+Route::view('audio-interfaces', 'audio-interfaces');
+Route::view('webcams', 'webcams');
+Route::view('lights', 'lights');
